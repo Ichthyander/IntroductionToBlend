@@ -1,0 +1,14 @@
+﻿<Window x:Class="IntroductionToBlend.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IntroductionToBlend"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="100" Width="450" 
+        FontFamily="Arial" FontSize="20" ResizeMode="NoResize">
+    <UniformGrid Columns="2">
+        <Button x:Name="StopSignButton" Click="StopSignButton_Click" Content="Задание 1"/>
+        <Button x:Name="FlowerButton"  Content="Задание 2" Click="FlowerButton_Click"/>
+    </UniformGrid>
+</Window>
